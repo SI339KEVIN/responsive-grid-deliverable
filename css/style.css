@@ -108,12 +108,6 @@ nav a:focus {
 /* Step 2a: Write selector/rule property to position the default position for the skip class element*/
 
 .skip a{
-  background: white;
-  left: 0;
-  padding: 6px;
-  -webkit-transition: top 1s ease-out;
-  transition: top 1s ease-out;
-  z-index: 1;
   position: absolute;
   top: -40px;
 }
